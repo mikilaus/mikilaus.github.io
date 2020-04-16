@@ -1,37 +1,37 @@
 let data1 = {
-    photo: "https://github.com/mikilaus/photo-viewer-app/blob/master/images/igor-kasalovic-tNDvFkxkBHo-unsplash.jpg?raw=true",
-    title: "My title1",
-    description: "What happened here, why is this a very nice image1"
+    photo: "https://github.com/mikilaus/mikilaus.github.io/blob/master/images/igor-kasalovic-tNDvFkxkBHo-unsplash.jpg?raw=true",
+    title: "My title 1",
+    description: "What happened here, why is this a very nice image 1"
 };
 
 let data2 = {
-    photo: "https://github.com/mikilaus/photo-viewer-app/blob/master/images/josefin-4VTtTkZ5Ms8-unsplash.jpg?raw=true",
-    title: "My title2",
-    description: "What happened here, why is this a very nice image2"
+    photo: "https://github.com/mikilaus/mikilaus.github.io/blob/master/images/josefin-4VTtTkZ5Ms8-unsplash.jpg?raw=true",
+    title: "My title 2",
+    description: "What happened here, why is this a very nice image 2"
 };
 
 let data3 = {
-    photo: "https://github.com/mikilaus/photo-viewer-app/blob/master/images/kaze-0421-XW5BbnQ1I5w-unsplash.jpg?raw=true",
-    title: "My title3",
-    description: "What happened here, why is this a very nice image3"
+    photo: "https://github.com/mikilaus/mikilaus.github.io/blob/master/images/kaze-0421-XW5BbnQ1I5w-unsplash.jpg?raw=true",
+    title: "My title 3",
+    description: "What happened here, why is this a very nice image 3"
 };
 
 let data4 = {
-    photo: "https://github.com/mikilaus/photo-viewer-app/blob/master/images/lucas-benjamin-R79qkPYvrcM-unsplash.jpg?raw=true",
-    title: "My title4",
-    description: "What happened here, why is this a very nice image4"
+    photo: "https://github.com/mikilaus/mikilaus.github.io/blob/master/images/lucas-benjamin-R79qkPYvrcM-unsplash.jpg?raw=true",
+    title: "My title 4",
+    description: "What happened here, why is this a very nice image 4"
 };
 
 let data5 = {
-    photo: "https://github.com/mikilaus/photo-viewer-app/blob/master/images/pascal-debrunner-9_53Y1MqCV4-unsplash.jpg?raw=true",
-    title: "My title5",
-    description: "What happened here, why is this a very nice image5"
+    photo: "https://github.com/mikilaus/mikilaus.github.io/blob/master/images/pascal-debrunner-9_53Y1MqCV4-unsplash.jpg?raw=true",
+    title: "My title 5",
+    description: "What happened here, why is this a very nice image 5"
 };
 
 let data6 = {
-    photo: "https://github.com/mikilaus/photo-viewer-app/blob/master/images/revolt-164_6wVEHfI-unsplash.jpg?raw=true",
-    title: "My title6",
-    description: "What happened here, why is this a very nice image6"
+    photo: "https://github.com/mikilaus/mikilaus.github.io/blob/master/images/revolt-164_6wVEHfI-unsplash.jpg?raw=true",
+    title: "My title 6",
+    description: "What happened here, why is this a very nice image 6"
 };
 
 

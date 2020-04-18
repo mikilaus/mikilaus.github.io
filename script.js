@@ -43,20 +43,23 @@ let currentPhoto = 0;
 let currentData = 0;   
 imagesdata.forEach(element => {
          
-      $(".thumbnail-cont").append(`<div class="thumbnail"> <img class="pict" src="${element.photo}" data-number="${currentData}"> <img class="arrowup" src="" alt="" data-number="${currentData}"> </div>`)
-      currentData++;
+      $(".thumbnail-cont").append(`<div class="thumbnail" data-number="${currentData}"> <img class="pict" src="${element.photo}" data-number="${currentData}"> <img class="arrowup" src="" alt="" data-number="${currentData}"> </div>`) ;     
 
-
-      $( ".thumbnail" ).hover(
-        function() {
-          $( this ).append( $( `<div class="toptitle" data-number="${currentData}"> ${element.title} </div> <img class="arrowdown" src="" alt="">` ) );
-        }, function() {
-          $( this ).find( "div" ).last().remove();
-          $( this ).find( "img" ).last().remove();
-        }
-      );
       
+      currentData++;
   });
+
+
+$( ".thumbnail" ).hover(
+    function() {
+        isit = $(this).attr("data-number")
+      $( this ).append(`<div class="toptitle"> ${imagesdata[isit].title} </div> <img class="arrowdown" src="" alt="">`);
+    }, function() {
+      $( this ).find( "div" ).last().remove();
+      $( this ).find( "img" ).last().remove();
+    }
+  );
+
 
 
 let loadPhoto = (photoNumber) => {
